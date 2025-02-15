@@ -1,0 +1,3 @@
+
+ALTER TABLE `referral` ADD COLUMN `message` VARCHAR(191) NOT NULL,
+    ADD COLUMN `referralCode` INTEGER NOT NULL;
